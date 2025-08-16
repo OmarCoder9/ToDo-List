@@ -1,12 +1,31 @@
-# React + Vite
+#Landing Page
+-> Visual Section (Left Panel)
+-> App Identity (Right Panel)
+-> Call to Action (CTA) (Primary and Secondary buttons)
+-> Overall design
+#Home Page
+-> Navigation Menu (Sidebar)
+-> Main Content Area (Welcome Section)
+-> Overall design
+#Calendar Page
+-> Calendar View (Main Content)
+-> Overall design
+#Loin Page
+-> Authentication Section (Right Panel) -> Validation
+-> Overall design
+#Upcoming Page
+-> Main Task Area (Right Panel) -> Header Section, Task Categories
+-> Task features -> add task, task completion Tracking, Categorization
+-> Overall design
+#Registration Page
+-> Input Fields
+-> Sign up button
+-> navigation links -> Already have an account? Sign In
+-> General Features -> Form Validation, Accessibility(labels for all fields)
+-> Overall design
+#Today Page
+-> Task Management -> add new task, make tasks as complete and incomplete, edit or delete, task counter
+-> Overall design
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
