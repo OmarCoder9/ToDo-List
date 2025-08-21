@@ -1,1 +1,11 @@
 @import "tailwindcss";
+@theme{
+    --color-secondary-body-color: #C4C4C4;
+    --color-main-body-color: #FFF9F9;
+    --color-btn-gr: #32CD32;
+    --color-btn-gr-hover: #28A428;
+    --font-main-font: noto_Sans;
+    --radius-main: 40px;
+    --radius-sec: 10px;
+    --text-normal: 15px;
+}
