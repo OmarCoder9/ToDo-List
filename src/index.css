@@ -4,8 +4,13 @@
     --color-main-body-color: #FFF9F9;
     --color-btn-gr: #32CD32;
     --color-btn-gr-hover: #28A428;
+    --color-custom-gray: rgba(0,0,0,0.52);
     --font-main-font: noto_Sans;
     --radius-main: 40px;
     --radius-sec: 10px;
+    --radius-input: 7px;
     --text-normal: 15px;
+}
+.input-field{
+    @apply border rounded-input py-1 pl-1 pr-8 w-full mb-6;
 }
