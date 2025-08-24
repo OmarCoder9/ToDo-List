@@ -7,6 +7,8 @@
     --color-custom-gray: rgba(0,0,0,0.52);
     --color-btn-gray-hover: #ebe6e7;
     --color-btn-gray: #f6f3f4;
+    --color-error: #e7000b;
+    --color-correct: #00c951;
     --font-main-font: noto_Sans;
     --radius-main: 40px;
     --radius-sec: 10px;
