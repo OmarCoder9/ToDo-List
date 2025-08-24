@@ -77,11 +77,11 @@ const SignIn = () => {
 
         {/* Social Buttons */}
         <div className="flex justify-center gap-4 mb-6">
-          <button className="flex items-center gap-2 px-4 py-2 cursor-pointer bg-gray-100 rounded-lg hover:bg-gray-200 transition">
+          <button className="flex items-center gap-2 px-4 py-2 cursor-pointer bg-btn-gray rounded-lg hover:bg-btn-gray-hover transition">
             <FcGoogle size={20} />
             Google
           </button>
-          <button className="flex items-center gap-2 px-4 py-2 cursor-pointer bg-gray-100 rounded-lg hover:bg-gray-200 transition">
+          <button className="flex items-center gap-2 px-4 py-2 cursor-pointer bg-btn-gray rounded-lg hover:bg-btn-gray-hover transition">
             <FaFacebook size={18} />
             Facebook
           </button>
