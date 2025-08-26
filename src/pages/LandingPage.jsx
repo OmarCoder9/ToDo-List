@@ -1,6 +1,5 @@
-import React from "react";
 import SidePic from "../components/shared/sidePic/SidePic";
-import GettingStarted from "../components/gettingStarted/GettingStarted";
+import { Outlet } from "react-router";
 
 const LandingPage = () => {
   return (
@@ -10,8 +9,8 @@ const LandingPage = () => {
         <SidePic />
       </div>
       {/* Right Section - UI Panel */}
-      <div className="flex items-center justify-center">
-        <GettingStarted />
+      <div className="flex items-center">
+        <Outlet/>
       </div>
     </div>
   );

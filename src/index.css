@@ -2,16 +2,24 @@
 @theme{
     --color-secondary-body-color: #C4C4C4;
     --color-main-body-color: #FFF9F9;
+    --color-home: #F4F4F4;
     --color-btn-gr: #32CD32;
     --color-btn-gr-hover: #28A428;
     --color-custom-gray: rgba(0,0,0,0.52);
     --color-btn-gray-hover: #ebe6e7;
     --color-btn-gray: #f6f3f4;
+    --color-search-text:#6a7282;
+    --color-search-bg: #EBEBEB;
+    --color-list-bg: rgba(217, 217, 217, 0.2);
+    --color-list-hover: rgba(217, 217, 217, 0.5);
+    --color-aside-main: rgba(0, 0, 0, 0.7);
+    --color-aside-hover: #fbf9fa;
     --color-error: #e7000b;
     --color-correct: #00c951;
     --font-main-font: noto_Sans;
     --radius-main: 40px;
     --radius-sec: 10px;
+    --radius-aside: 50px;
     --radius-input: 7px;
     --text-normal: 15px;
 }
