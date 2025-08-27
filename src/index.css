@@ -16,9 +16,11 @@
     --color-aside-hover: #fbf9fa;
     --color-error: #e7000b;
     --color-correct: #00c951;
+    --color-tasks-border: rgba(0,0,0,0.4);
     --font-main-font: noto_Sans;
     --radius-main: 40px;
     --radius-sec: 10px;
+    --radius-tasks: 30px;
     --radius-aside: 50px;
     --radius-input: 7px;
     --text-normal: 15px;

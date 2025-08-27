@@ -1,3 +1,5 @@
+import { Link } from "react-router";
+
 const Welcoming = () => {
   return (
     <div className="bg-home rounded-aside shadow-sm p-10 pr-0 min-h-screen flex flex-col items-center justify-center text-center">
@@ -13,9 +15,11 @@ const Welcoming = () => {
         improving productivity, reducing stress, and ensuring that important
         responsibilities are not forgotten.
       </p>
-      <button className="px-6 py-3 bg-btn-gr hover:bg-btn-gr-hover text-black rounded-xl font-semibold transition-colors">
+      <Link to={"upcoming"}>
+      <button className="px-6 py-3 bg-btn-gr hover:bg-btn-gr-hover text-black rounded-xl font-semibold transition-colors cursor-pointer">
         Go to tasks
       </button>
+      </Link>
     </div>
   );
 };

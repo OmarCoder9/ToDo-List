@@ -16,7 +16,7 @@ const GettingStarted = () => {
         className="bg-btn-gr text-black border-none py-4 px-10 mx-auto rounded-sec font-main-font text-base font-semibold cursor-pointer w-full mb-5 hover:bg-btn-gr-hover transition-colors duration-300"
         
       >
-      <Link to={"/register"}>Get Started</Link>
+      <Link to={"/home"}>Get Started</Link>
         
       </button>
       <div className="font-main-font text-sm text-black text-center">

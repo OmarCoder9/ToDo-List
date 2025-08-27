@@ -4,6 +4,7 @@ import { IoSearchOutline } from "react-icons/io5";
 import { MdAddCircleOutline, MdKeyboardDoubleArrowRight } from "react-icons/md";
 import { PiSignOutBold } from "react-icons/pi";
 import { TfiAlignJustify, TfiMenuAlt } from "react-icons/tfi";
+import { Link } from "react-router";
 
 const ASideBar = () => {
   let upComingTasks = 15;
@@ -33,24 +34,30 @@ const ASideBar = () => {
         <div className="mb-6">
           <h3 className="text-sm text-black mb-2">Tasks</h3>
           <ul className="space-y-2 text-sm">
-            <li className="flex items-center justify-between px-3 py-2 rounded-xl hover:bg-aside-hover">
-              <div className="flex items-center gap-3 text-aside-main">
-                <span>
-                  <MdKeyboardDoubleArrowRight />
+            <Link to={"upcoming"}>
+              <li className="flex items-center justify-between px-3 py-2 rounded-xl hover:bg-aside-hover">
+                <div className="flex items-center gap-3 text-aside-main">
+                  <span>
+                    <MdKeyboardDoubleArrowRight />
+                  </span>
+                  <span>Upcoming</span>
+                </div>
+                <span className="text-search-text text-xs">
+                  {upComingTasks}
                 </span>
-                <span>Upcoming</span>
-              </div>
-              <span className="text-search-text text-xs">{upComingTasks}</span>
-            </li>
-            <li className="flex items-center justify-between px-3 py-2 rounded-xl hover:bg-aside-hover">
-              <div className="flex items-center gap-3 text-aside-main">
-                <span>
-                  <TfiMenuAlt />
-                </span>
-                <span>Today</span>
-              </div>
-              <span className="text-search-text text-xs">{todayTasks}</span>
-            </li>
+              </li>
+            </Link>
+            <Link to={"today"}>
+              <li className="flex items-center justify-between px-3 py-2 rounded-xl hover:bg-aside-hover">
+                <div className="flex items-center gap-3 text-aside-main">
+                  <span>
+                    <TfiMenuAlt />
+                  </span>
+                  <span>Today</span>
+                </div>
+                <span className="text-search-text text-xs">{todayTasks}</span>
+              </li>
+            </Link>
             <li className="flex items-center gap-3 px-3 py-2 rounded-xl text-aside-main hover:bg-aside-hover">
               <span>
                 <FaRegCalendar />

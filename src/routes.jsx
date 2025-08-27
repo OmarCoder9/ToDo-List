@@ -8,6 +8,7 @@ import Calendar from "./components/calendar/Calendar";
 import GettingStarted from "./components/gettingStarted/GettingStarted";
 import SignIn from "./components/signIn/SignIn";
 import Register from "./components/register/Register";
+import { AddTodayTaskProvider } from "./services/contexts/AddTodayTaskContext";
 
 const routes = createBrowserRouter([
   {
@@ -32,7 +33,11 @@ const routes = createBrowserRouter([
   {
     path: "/home",
     errorElement: <div>Error</div>,
-    element: <HomePage />,
+    element: (
+      <AddTodayTaskProvider>
+        <HomePage />
+      </AddTodayTaskProvider>
+    ),
     children: [
       {
         index: true,
