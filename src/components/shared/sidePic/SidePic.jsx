@@ -1,4 +1,3 @@
-import React from "react";
 import ToDoImg from "../../../assets/ToDoImg.png";
 
 const SidePic = () => {
